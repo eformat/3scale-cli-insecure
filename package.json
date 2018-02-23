@@ -1,0 +1,57 @@
+{
+  "name": "node-3scale-cli-onprem",
+  "description": "A command line interface for 3scale API management",
+  "version": "0.11.2",
+  "main": "index.js",
+  "author": {
+    "name": "picsoung",
+    "email": "picsoung@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:3scale/3scale-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3scale/3scale-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "3scale-cli-onprem": "./bin/3scale-cli-onprem"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "pkg": {
+    "scripts": [
+      "commands/*.js",
+      "lib/*.js"
+    ]
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "debug": "^3.0.0",
+    "delay-promise": "^2.1.0",
+    "easy-table": "^1.0.0",
+    "http-error-constructor": "^0.1.0",
+    "inquirer": "^3.2.1",
+    "mkdirp": "^0.5.1",
+    "nconf": "^0.8.4",
+    "os-homedir": "^1.0.1",
+    "prettyjson": "*",
+    "prompt": "^1.0.0",
+    "q": "^1.4.1",
+    "raml-1-parser": "^1.1.29",
+    "request": "^2.60.0",
+    "slug": "^0.9.1",
+    "swagger-parser": "beta",
+    "underscore": "*"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}
